@@ -1,4 +1,4 @@
-console.log(`\nTrabalhando com condicionais`);
+console.log(`SSSTrabalhando com condicionais`);
 const listaDeDestinos = new Array(
     `Salvador`,
     `São Paulo`,
@@ -10,8 +10,8 @@ const estaAcompanhada = false;
 let temPassagemComprada = false;
 const destino = "Curitiba";
 
-console.log("\n Destinos possíveis:");
-console.log(listaDeDestinos);
+console.log("Destinos possíveis:");
+console.log("listaDeDestinos");
 
 const podeComprar  = idadeComprador >= 18 || estaAcompanhada == true;
 
@@ -25,11 +25,13 @@ while(contador<3){
     contador += 1;
 }
 
-console.log("Destino exite: ", destinoExiste);
+console.log("Destino exite:", "destinoExiste");
 
 if(podeComprar && destinoExiste){
     console.log("Boa Viagem");
-}else{
+}
+
+else {
     console.log("Desculpe tivemos um erro!");
 }
 
